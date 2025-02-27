@@ -3,3 +3,6 @@ node_modules
 /.cache
 /build
 .env
+
+/public/local
+/public/file-list.local.json
