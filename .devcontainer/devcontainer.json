@@ -1,0 +1,17 @@
+{
+    "name": "Remix",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "remix",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "GitHub.copilot",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "leizongmin.node-module-intellisense",
+        "christian-kohler.npm-intellisense",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph"
+    ]
+  }

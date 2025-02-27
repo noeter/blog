@@ -1,0 +1,13 @@
+services:
+  remix:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5173:5173
+    volumes:
+      - .:/usr/server
+      - remix-node-modules:/usr/server/node_modules
+
+volumes:
+  remix-node-modules:
